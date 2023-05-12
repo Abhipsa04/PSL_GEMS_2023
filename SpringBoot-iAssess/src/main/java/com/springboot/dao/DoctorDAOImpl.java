@@ -12,6 +12,7 @@ public class DoctorDAOImpl implements DoctorDAO {
     private static List<Doctor> doctors = new ArrayList<>();
 
 	static{
+		//here static block is used
 		doctors.add(new Doctor(1, "Elizabeth", "MBBS", 4.2, "Cardiologist", 750.));
 		doctors.add(new Doctor(2, "Michael", "MBBS", 2.0, "Dermatologist", 1500.));
 		doctors.add(new Doctor(3, "Charlotte", "MBBS", 3.1, "Pediatrics", 200.));
