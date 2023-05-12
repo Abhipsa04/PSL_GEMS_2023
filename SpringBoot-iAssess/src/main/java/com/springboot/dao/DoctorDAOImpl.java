@@ -16,6 +16,7 @@ public class DoctorDAOImpl implements DoctorDAO {
 		doctors.add(new Doctor(2, "Michael", "MBBS", 2.0, "Dermatologist", 1500.));
 		doctors.add(new Doctor(3, "Charlotte", "MBBS", 3.1, "Pediatrics", 200.));
 		doctors.add(new Doctor(4, "Lucas", "BDS", 1.9, "Dentist", 250.));
+		//doctors.add(new Doctor(4, "Lucas", "BDS", 1.9, "Dentist", 250.));
 	}	
 
 	public List<Doctor> list() {
